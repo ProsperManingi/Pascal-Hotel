@@ -105,27 +105,27 @@ SELECT NULL AS BookingID, NULL AS BookingDate, CheckInDate, NULL AS CheckOutDate
 FROM FactAggregatedBookings_CTE;
 ```
 ## Results/Findings
-📊 ### Booking Status Distribution (Top Left)
+### 📊 Booking Status Distribution (Top Left)
 - Most bookings are "Checked Out" – significantly higher than all other statuses.
 - "Cancelled" bookings are the next most frequent.
 - "No Show" and "Aggregated" bookings are minimal.
 
-💵 ### Revenue by Booking Platform (Top Right)
+### 💵Revenue by Booking Platform (Top Right)
 - The "Others" platform generated the highest revenue.
 - "Makeyourtrip" follows as the second-largest contributor.
 - Platforms like "logtrip", "direct online", and "tripster" show moderate revenue.
 - "Direct offline" contributes the least.
 
-🏨 ### Revenue by Property Name (Bottom Left)
+### 🏨 Revenue by Property Name (Bottom Left)
 - Atliq Palace and Atliq Exotica are top revenue-generating properties.
 - Atliq City and Atliq Blu also perform well.
 - Atliq Seasons generates the least revenue by a significant margin.
 
-🛏️ ### Revenue by Room Class (Bottom Center)
+### 🛏️ Revenue by Room Class (Bottom Center)
 - "Elite" and "Premium" room classes are top earners.
 - "Standard" and "Presidential" follow, with Presidential being the lowest among the four.
 
-📅 ### Revenue by Month & Day Type (Bottom Right)
+### 📅 Revenue by Month & Day Type (Bottom Right)
 - Weekends generate significantly more revenue than weekdays.
 - Revenue peaks in May and June for both weekdays and weekends.
 - There's a slight decline in July for both day types.
@@ -142,31 +142,31 @@ FROM FactAggregatedBookings_CTE;
 - Recommendation: Upsell Elite and Premium rooms through promotions or bundled services (e.g., breakfast, late checkout).
 - Action: Highlight these rooms on booking platforms and during direct bookings.
 
-📅 ### 3. Maximize Weekend Revenue
+📅 3. Maximize Weekend Revenue
 - Observation: Weekends generate more revenue than weekdays.
 - Recommendation: Launch targeted weekend getaway deals, seasonal promotions, or experiences tailored to weekend travelers.
 - Action: Adjust staffing and inventory planning to handle weekend demand peaks.
 
-🌐 ### 4. Optimize Platform Strategy
+🌐 4. Optimize Platform Strategy
 - Top platforms: “Others” and “Makeyourtrip”
 - Recommendation: Identify what makes “Others” successful—could be B2B channels or corporate bookings. Increase collaboration or negotiate better terms with high-performing platforms.
 - Action: De-prioritize or renegotiate with low-performing platforms like "direct offline" and "journey."
 
-📉 ### 5. Reduce Booking Cancellations
+📉 5. Reduce Booking Cancellations
 - Observation: High number of cancellations
 - Recommendation: Investigate reasons for cancellations—could be price sensitivity, flexible policies, or poor user experience.
 - Action: Introduce non-refundable discounts, improve booking terms clarity, and strengthen pre-arrival communication.
 
-🚫 ### 6. Address ‘No Shows’
+🚫 6. Address ‘No Shows’
 - Recommendation: Implement partial prepayments or no-show penalties.
 - Action: Use automated reminders (SMS/email) before check-in.
 
-📆 ### 7. Strengthen Low-Performing Months
+📆 7. Strengthen Low-Performing Months
 - Observation: July shows declining revenue
 - Recommendation: Run promotional campaigns or special events to boost July bookings.
 - Action: Offer early bird discounts or partner with local events to drive demand.
 
-🏨 ### 8. Boost Performance of Underperforming Properties
+🏨 8. Boost Performance of Underperforming Properties
 - Example: Atliq Seasons
 - Recommendation: Reevaluate pricing, amenities, and local competition.
 - Action: Test promotions or reposition the property for a different segment (e.g., budget-friendly or boutique).
